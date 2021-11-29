@@ -1,0 +1,63 @@
+
+/*.sq {*/
+/*    background-color: #d59ac6;*/
+/*    height: 100px;*/
+/*    width: 150px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin: 30px;*/
+/*    align-items: center;*/
+/*    justify-content: flex-end;*/
+/*    padding: 5px;*/
+/*}*/
+/*.btn {*/
+/*    height: 20px;*/
+/*    width: 80%;*/
+/*}*/
+
+/*HomeWork*/
+
+.box {
+    height: 300px;
+    width: 600px;
+    background-color: lightyellow;
+    border: 2px lightcyan solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin : 10px;
+}
+
+.sbox {
+    height: 100px;
+    width: 100px;
+    background-color: #cccc76;
+    display: flex;
+    flex-direction: row;
+}
+
+.but1 {
+    background-color: #a16e81;
+    height: 100px;
+    width: 100px;
+}
+.but2 {
+    background-color: rgba(119, 231, 182, 0.47);
+    height: 100px;
+    width: 100px;
+}
+.but3 {
+    background-color: #cccc76;
+    height: 100px;
+    width: 100px;
+
+}
+
+.but4 {
+    background-color: #a16e81;
+    height: 100px;
+    width: 100px;
+}
+
+

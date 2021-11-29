@@ -1,0 +1,137 @@
+body {
+    font-family: Arial;
+}
+
+.main {
+    background-color: #7c7cc2;
+    height: auto;
+}
+
+.toolbar {
+    background-color: #f6f6b6;
+    height: 60px;
+    text-align: end;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #7c7cc2;
+    font-size: 30px;
+}
+
+.cartButton {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: #7c7cc2;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+
+.cartButton i {
+    font-size: 30px;
+    color: #f6f6b6;
+
+}
+
+.store {
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.productCard {
+    height: auto;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+    font-size: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buyButton {
+    align-items: end;
+    background-color: #f6f6b6;
+    border: 1px solid #7c7cc2;
+    width: 50%;
+}
+.backButton {
+    font-size: 20px;
+    border: 1px solid #f6f6b6;
+}
+
+img {
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+}
+
+.imgStyle {
+    width: 100%;
+    border: 1px solid #7c7cc2;
+    display: flex;
+    justify-content: center;
+}
+
+.imgStyle2 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cartCounter {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    color: red;
+    font-size: 25px;
+}
+
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+}
+
+.boughtCard {
+    height: 120px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 5px;
+    padding: 20px;
+}
+
+h5 {
+    margin: 20px;
+}
+
+.removeButton {
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+}
+
+.total {
+    height: 10px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+    justify-content: end;
+    display: flex;
+}
+
+.position {
+    align-items: end;
+}
+
+

@@ -1,0 +1,79 @@
+.mbutton {
+    border: 2px #454594 solid;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+.btn {
+    height: 100px;
+}
+
+.btn1 {
+    height: 30px;
+    align-self: end;
+    margin: 30px;
+}
+
+.btn2 {
+    height: 30px;
+    align-self: start;
+    margin: 30px;
+}
+
+.main1 {
+    height: 400px;
+    width: 600px;
+    border: 3px #f18686 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main2 {
+    display: none;
+    height: 400px;
+    width: 600px;
+    border: 3px #f18686 solid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main3 {
+    display: none;
+    height: 400px;
+    width: 600px;
+    border: 3px #f18686 solid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.upgrade {
+    height: 30px;
+    width: 80%;
+    border: 2px indianred solid;
+    margin: 10px;
+    text-align: center;
+}
+
+.spiner {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

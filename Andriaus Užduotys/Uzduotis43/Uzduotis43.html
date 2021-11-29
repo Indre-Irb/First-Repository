@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Uzduotis43</title>
+    <link rel="stylesheet" href="Uzduotis43.css">
+    <script src="Uzduotis43.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--PartI, PartII-->
+<!--<div class="box"></div>-->
+
+<!--Part III-->
+
+<select id="mySelect" onchange="myFunction()">
+    <option value="">Select genre</option>
+    <option value="Romantiniai">Romantiniai</option>
+    <option value="Šeimai">Šeimai</option>
+    <option value="Animaciniai">Animaciniai</option>
+    <option value="Dramos">Dramos</option>
+    <option value="Siaubo">Siaubo</option>
+    <option value="Trileriai">Trileriai</option>
+</select>
+<h4>IMdb rating from: <span id="slider_value">0</span></h4>
+<div class="sliderBar">
+    <input type="range" min="1" max="10" value="" step="0.1" class="slider" id="myRange"
+           onchange="show_value(this.value);">
+</div>
+<button>Check</button>
+<div class="main">
+    <div class="movie">
+    </div>
+</div>
+
+</body>
+</html>

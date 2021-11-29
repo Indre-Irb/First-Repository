@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+}
+
+i {
+    font-size:  30px;
+    border: 1px solid black;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    width: 100px;
+    margin: 15px;
+}
+
+i div {
+    font-size: 10px;
+}
+
+.shop {
+    border: 1px solid black;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.inventory {
+    border: 1px solid black;
+    flex-wrap: wrap;
+    width: 200px;
+    display: flex;
+    flex: 1;
+}
+
+i:hover {
+    background-color: #ffe17f;
+    cursor: grab;
+}
