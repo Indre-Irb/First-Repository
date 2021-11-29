@@ -1,1 +1,1 @@
-console.log("Pirmas komitas")
+console.log("Pirmas lasbas labas labas")
